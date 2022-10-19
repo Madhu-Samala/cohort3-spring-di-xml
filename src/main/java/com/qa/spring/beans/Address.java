@@ -7,6 +7,7 @@ public class Address {
 	private int zipCode;
 	
 	public Address() {
+		System.out.println("Address constructor invoked..");
 	}
 
 	public String getHouseNo() {
